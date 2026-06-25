@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marcia's Divinity – Art Rooted In Oneness, Unity and Human Connection</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- TICKER BAR -->
+  <div class="ticker-bar">
+    <div class="ticker-track">
+      <span>40% OFF &#8741; FREE WORLDWIDE SHIPPING!</span>
+      <span>40% OFF &#8741; FREE WORLDWIDE SHIPPING!</span>
+      <span>40% OFF &#8741; FREE WORLDWIDE SHIPPING!</span>
+      <span>40% OFF &#8741; FREE WORLDWIDE SHIPPING!</span>
+      <span>40% OFF &#8741; FREE WORLDWIDE SHIPPING!</span>
+      <span>40% OFF &#8741; FREE WORLDWIDE SHIPPING!</span>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header id="site-header">
+    <div class="header-inner">
+      <a href="#" class="logo-link" data-page="home">
+        <div class="logo">
+          <span class="logo-script">Marcias</span>
+          <span class="logo-divinity">DIVINITY</span>
+        </div>
+      </a>
+      <nav class="main-nav">
+        <a href="#" class="nav-link active" data-page="home">Home</a>
+        <a href="#" class="nav-link" data-page="framed-prints">Framed Prints</a>
+        <a href="#" class="nav-link" data-page="original-paintings">Original Paintings</a>
+        <a href="#" class="nav-link" data-page="custom-artwork">Custom Artwork</a>
+        <a href="#" class="nav-link" data-page="contact">Contact</a>
+        <a href="#" class="nav-link" data-page="about">About</a>
+      </nav>
+      <button class="cart-btn" id="cart-toggle" aria-label="Open Cart">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <path d="M16 10a4 4 0 01-8 0"/>
+        </svg>
+        <span class="cart-count" id="cart-count">0</span>
+      </button>
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-nav" id="mobile-nav">
+      <a href="#" class="nav-link" data-page="home">Home</a>
+      <a href="#" class="nav-link" data-page="framed-prints">Framed Prints</a>
+      <a href="#" class="nav-link" data-page="original-paintings">Original Paintings</a>
+      <a href="#" class="nav-link" data-page="custom-artwork">Custom Artwork</a>
+      <a href="#" class="nav-link" data-page="contact">Contact</a>
+      <a href="#" class="nav-link" data-page="about">About</a>
+    </div>
+  </header>
+
+  <!-- REVIEWS TAB -->
+  <div class="reviews-tab" id="reviews-tab-btn">
+    <span>&#9733;</span>
+    <span class="reviews-tab-text">Reviews</span>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <main id="main-content">
+
+    <!-- ===== HOME PAGE ===== -->
+    <section class="page active" id="page-home">
+      <div class="hero">
+        <div class="hero-bg">
+          <div class="hero-gallery-interior">
+            <div class="gallery-arch left"></div>
+            <div class="gallery-arch right"></div>
+            <div class="gallery-light left-light"></div>
+            <div class="gallery-light right-light"></div>
+            <div class="hero-painting">
+              <div class="painting-canvas"></div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1 class="hero-title">Marcia's Divinity</h1>
+          <p class="hero-subtitle">"Art Rooted In Oneness, Unity and Human Connection"</p>
+          <a href="#" class="btn-primary" data-page="framed-prints">SHOP NOW</a>
+        </div>
+      </div>
+
+      <div class="section bestsellers">
+        <div class="container">
+          <h2 class="section-title">Bestsellers</h2>
+          <p class="section-subtitle"><em>Original paintings exploring compassion, shared humanity and the invisible threads that connect us all.</em></p>
+          <div class="product-grid" id="bestsellers-grid"></div>
+        </div>
+      </div>
+
+      <div class="section collections-banner">
+        <div class="container">
+          <div class="collection-cards">
+            <div class="collection-card" data-page="framed-prints">
+              <div class="collection-img collection-img-framed"></div>
+              <div class="collection-card-body">
+                <h3>Framed Prints</h3>
+                <a href="#" class="btn-outline" data-page="framed-prints">Shop Now</a>
+              </div>
+            </div>
+            <div class="collection-card" data-page="original-paintings">
+              <div class="collection-img collection-img-original"></div>
+              <div class="collection-card-body">
+                <h3>Original Paintings</h3>
+                <a href="#" class="btn-outline" data-page="original-paintings">Shop Now</a>
+              </div>
+            </div>
+            <div class="collection-card" data-page="custom-artwork">
+              <div class="collection-img collection-img-custom"></div>
+              <div class="collection-card-body">
+                <h3>Custom Artwork</h3>
+                <a href="#" class="btn-outline" data-page="custom-artwork">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FRAMED PRINTS PAGE ===== -->
+    <section class="page" id="page-framed-prints">
+      <div class="page-banner framed-banner">
+        <div class="page-banner-overlay"></div>
+        <div class="page-banner-content">
+          <h1>Framed Prints</h1>
+          <p>Museum-quality framed prints of Marcia's most iconic works</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="product-grid" id="framed-grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ORIGINAL PAINTINGS PAGE ===== -->
+    <section class="page" id="page-original-paintings">
+      <div class="page-banner original-banner">
+        <div class="page-banner-overlay"></div>
+        <div class="page-banner-content">
+          <h1>Original Paintings</h1>
+          <p>One-of-a-kind original works — each carrying the energy of its creation</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="product-grid" id="original-grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CUSTOM ARTWORK PAGE ===== -->
+    <section class="page" id="page-custom-artwork">
+      <div class="page-banner custom-banner">
+        <div class="page-banner-overlay"></div>
+        <div class="page-banner-content">
+          <h1>Custom Artwork</h1>
+          <p>A piece made just for you</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container custom-artwork-content">
+          <div class="custom-artwork-text">
+            <h2>Commission Your Own Piece</h2>
+            <p>Every commission begins with a conversation. Marcia works closely with each client to understand the emotion, energy, and meaning they want to capture — then brings it to life through her signature luminous, cosmic style.</p>
+            <p>Whether for your home, office, or as a meaningful gift, a custom painting from Marcia's Divinity is a truly personal piece of art that carries intention and soul.</p>
+            <h3>What to Expect</h3>
+            <ul class="custom-list">
+              <li>Initial consultation to discuss your vision, colours and size</li>
+              <li>Concept sketch and approval stage</li>
+              <li>Creation of the finished piece (3–6 weeks)</li>
+              <li>Secure worldwide shipping included</li>
+              <li>Certificate of authenticity provided</li>
+            </ul>
+            <h3>Pricing</h3>
+            <p>Custom commissions start from <strong>$800</strong> depending on size and complexity. Contact us below to get started.</p>
+            <a href="#" class="btn-primary" data-page="contact">Get In Touch</a>
+          </div>
+          <div class="custom-artwork-visual">
+            <div class="custom-artwork-img"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT PAGE ===== -->
+    <section class="page" id="page-contact">
+      <div class="section contact-section">
+        <div class="container contact-container">
+          <div class="contact-form-wrap">
+            <h2 class="contact-heading">CONTACT</h2>
+            <form id="contact-form" class="contact-form" novalidate>
+              <input type="text" name="name" placeholder="Full Name" required>
+              <input type="email" name="email" placeholder="Email" required>
+              <textarea name="message" placeholder="Message" rows="8" required></textarea>
+              <div class="contact-optional">
+                <p class="optional-label">Optional</p>
+                <label class="checkbox-label">
+                  <input type="checkbox" name="urgent">
+                  <span class="checkbox-custom"></span>
+                  This is urgent
+                </label>
+              </div>
+              <button type="submit" class="btn-primary btn-full">Send</button>
+              <div class="form-success" id="form-success">
+                Thank you! Your message has been sent. Marcia will be in touch soon.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT PAGE ===== -->
+    <section class="page" id="page-about">
+      <div class="section about-section">
+        <div class="container about-container">
+          <div class="about-text">
+            <p class="about-intro-label">Introducing</p>
+            <h2 class="about-heading">The artist</h2>
+            <p>Marcia Annor is a contemporary artist whose work explores themes of human connection, unity, emotion, and light through spiritually inspired visual storytelling.</p>
+            <p>Known for her luminous figures, radiant compositions, and emotionally expressive style, Marcia creates artwork designed to evoke reflection, warmth, and a deeper sense of connection within the spaces people live and work in.</p>
+            <p>With a background in Fine Art, Art History, and Animation, her creative journey has evolved across multiple artistic disciplines, blending traditional painting with digital artistry to create visually immersive and meaningful works.</p>
+            <p>Over the years, Marcia has collaborated with recognised brands including Penguin Random House and Tumblr, while continuing to develop a distinct artistic voice rooted in compassion, shared humanity, and emotional resonance.</p>
+          </div>
+          <div class="about-image">
+            <div class="about-portrait"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FEATURES BAR -->
+  <div class="features-bar">
+    <div class="container features-container">
+      <div class="feature-item">
+        <div class="feature-icon">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="32" cy="32" r="28" stroke="currentColor" stroke-width="2"/>
+            <path d="M10 32 Q20 20 32 32 Q44 44 54 32" stroke="currentColor" stroke-width="2" fill="none"/>
+            <line x1="32" y1="4" x2="32" y2="60" stroke="currentColor" stroke-width="2"/>
+          </svg>
+        </div>
+        <h4>Worldwide Shipping</h4>
+        <p>Free shipping on all orders, everywhere in the world</p>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="32,4 39,24 60,24 44,38 50,58 32,46 14,58 20,38 4,24 25,24" stroke="currentColor" stroke-width="2" fill="none"/>
+          </svg>
+        </div>
+        <h4>Museum-Quality Art</h4>
+        <p>Premium materials and expert craftsmanship in every piece</p>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 20 Q20 10 32 10 Q44 10 44 20 L44 26 L20 26 Z" stroke="currentColor" stroke-width="2" fill="none"/>
+            <rect x="14" y="26" width="36" height="30" rx="3" stroke="currentColor" stroke-width="2" fill="none"/>
+            <circle cx="32" cy="41" r="4" stroke="currentColor" stroke-width="2" fill="none"/>
+            <line x1="32" y1="45" x2="32" y2="50" stroke="currentColor" stroke-width="2"/>
+          </svg>
+        </div>
+        <h4>Secure Checkout</h4>
+        <p>Your payment and personal details are always protected</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-col">
+        <h4 class="footer-heading">Footer menu</h4>
+        <ul class="footer-links">
+          <li><a href="#" data-page="home">Home</a></li>
+          <li><a href="#" data-page="home">Search</a></li>
+          <li><a href="#" data-page="home">FAQ's</a></li>
+          <li><a href="#" data-page="about">About Us</a></li>
+          <li><a href="#" data-page="contact">Contact Us</a></li>
+          <li><a href="#">Refund policy</a></li>
+          <li><a href="#">Privacy policy</a></li>
+          <li><a href="#">Shipping Policy</a></li>
+          <li><a href="#">Terms of service</a></li>
+        </ul>
+      </div>
+      <div class="footer-col footer-col-center">
+        <h4 class="footer-heading">Newsletter</h4>
+        <p class="newsletter-desc">Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>
+        <form class="newsletter-form" id="newsletter-form">
+          <input type="email" placeholder="email@newsletter.com" required>
+          <button type="submit">JOIN</button>
+        </form>
+        <div class="newsletter-success" id="newsletter-success">Thank you for subscribing!</div>
+      </div>
+      <div class="footer-col footer-col-right">
+        <h4 class="footer-heading">Social</h4>
+        <div class="social-links">
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="https://tumblr.com" target="_blank" aria-label="Tumblr">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H9v6H6v4h3v6c0 2.5 1.5 4 4 4h3v-4h-2c-.5 0-1-.5-1-1v-5h3V8h-3V2z"/></svg>
+          </a>
+          <a href="https://youtube.com" target="_blank" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 001.46 6.42 29 29 0 001 12a29 29 0 00.46 5.58a2.78 2.78 0 001.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.96A29 29 0 0023 12a29 29 0 00-.46-5.58z"/><polygon points="9.75,15.02 15.5,12 9.75,8.98" stroke="none" fill="currentColor"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <div class="currency-select">
+          <select>
+            <option>USD $</option>
+            <option>GBP £</option>
+            <option>EUR €</option>
+            <option>CAD $</option>
+            <option>AUD $</option>
+          </select>
+        </div>
+        <div class="payment-icons">
+          <span class="payment-icon">AMEX</span>
+          <span class="payment-icon">Apple Pay</span>
+          <span class="payment-icon">Diners</span>
+          <span class="payment-icon">Discover</span>
+          <span class="payment-icon">Google Pay</span>
+          <span class="payment-icon">Maestro</span>
+          <span class="payment-icon">Mastercard</span>
+          <span class="payment-icon">Shop Pay</span>
+          <span class="payment-icon">Visa</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CART SIDEBAR -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-sidebar" id="cart-sidebar">
+    <div class="cart-header">
+      <h3>Your Cart</h3>
+      <button class="cart-close" id="cart-close" aria-label="Close">&times;</button>
+    </div>
+    <div class="cart-items" id="cart-items">
+      <div class="cart-empty" id="cart-empty">
+        <p>Your cart is empty.</p>
+        <a href="#" class="btn-primary" data-page="framed-prints" id="cart-shop-btn">Shop Now</a>
+      </div>
+    </div>
+    <div class="cart-footer" id="cart-footer" style="display:none">
+      <div class="cart-subtotal">
+        <span>Subtotal</span>
+        <span id="cart-total">$0.00</span>
+      </div>
+      <p class="cart-note"><em>Shipping & taxes calculated at checkout</em></p>
+      <button class="btn-primary btn-full" id="checkout-btn">Checkout</button>
+      <a href="#" class="cart-continue" id="cart-continue">Continue Shopping</a>
+    </div>
+  </aside>
+
+  <!-- PRODUCT MODAL -->
+  <div class="modal-overlay" id="modal-overlay"></div>
+  <div class="product-modal" id="product-modal" role="dialog" aria-modal="true">
+    <button class="modal-close" id="modal-close" aria-label="Close">&times;</button>
+    <div class="modal-inner">
+      <div class="modal-image" id="modal-image"></div>
+      <div class="modal-details">
+        <span class="modal-sale-badge" id="modal-sale-badge">SALE</span>
+        <h2 class="modal-title" id="modal-title"></h2>
+        <div class="modal-prices">
+          <span class="modal-price" id="modal-price"></span>
+          <span class="modal-compare" id="modal-compare"></span>
+        </div>
+        <p class="modal-desc" id="modal-desc"></p>
+        <div class="modal-size-wrap" id="modal-size-wrap">
+          <label>Size</label>
+          <div class="size-options" id="modal-sizes"></div>
+        </div>
+        <div class="modal-qty-wrap">
+          <label>Quantity</label>
+          <div class="qty-control">
+            <button class="qty-btn" id="qty-minus">−</button>
+            <span id="qty-value">1</span>
+            <button class="qty-btn" id="qty-plus">+</button>
+          </div>
+        </div>
+        <button class="btn-primary btn-full btn-add-cart" id="modal-add-cart">Add to Cart</button>
+        <div class="modal-meta" id="modal-meta"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- REVIEWS MODAL -->
+  <div class="reviews-modal-overlay" id="reviews-modal-overlay"></div>
+  <div class="reviews-modal" id="reviews-modal">
+    <button class="modal-close" id="reviews-modal-close">&times;</button>
+    <h3>Customer Reviews</h3>
+    <div class="reviews-stars-summary">
+      <span class="big-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+      <span>4.9 out of 5 (47 reviews)</span>
+    </div>
+    <div class="reviews-list">
+      <div class="review-item">
+        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="review-text">"Absolutely stunning. The painting arrived perfectly packaged and looks even more incredible in person. The energy it brings to the room is unreal."</p>
+        <p class="review-author">— Amara K., London</p>
+      </div>
+      <div class="review-item">
+        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="review-text">"I commissioned a custom piece for my mother's birthday and Marcia exceeded every expectation. The communication was warm and the final piece made my mum cry with joy."</p>
+        <p class="review-author">— Deja M., Atlanta</p>
+      </div>
+      <div class="review-item">
+        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="review-text">"The framed print is museum quality. I've received so many compliments. Will definitely be ordering again."</p>
+        <p class="review-author">— Theo B., Toronto</p>
+      </div>
+      <div class="review-item">
+        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="review-text">"Fast shipping, beautiful packaging, and the art itself is breathtaking. Highly recommend."</p>
+        <p class="review-author">— Priya S., Melbourne</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div class="toast" id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
